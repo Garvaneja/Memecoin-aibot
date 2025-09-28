@@ -1,0 +1,11 @@
+2025-07-21 23:41:01,879 - ERROR - Capital check error: kucoin Invalid KC-API-TIMESTAMP
+2025-07-21 23:41:01,879 - ERROR - CRASH: run_backtest() missing 1 required positional argument: 'state'
+2025-07-21 23:41:07,551 - ERROR - Telegram alert error: Timed out
+2025-07-21 23:41:07,758 - ERROR - Emergency stop failed: kucoin Invalid KC-API-TIMESTAMP
+2025-07-21 23:41:09,121 - INFO - HTTP Request: POST https://api.telegram.org/bot7374294649:AAHK3Dub0IkOXsjcXO3SzhNNYDiqqWyJiks/sendMessage "HTTP/1.1 200 OK"
+2025-07-21 23:41:18,674 - WARNING - kucoin requires to release all resources with an explicit call to the .close() coroutine. If you are using the exchange instance with async coroutines, add `await exchange.close()` to your code into a place when you're done with the exchange and don't need the exchange instance anymore (at the end of your async coroutine).
+2025-07-21 23:41:18,674 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001F67D324820>
+2025-07-21 23:41:18,690 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001F67D314940>, 8189.375)])', 'deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001F67D3141C0>, 8197.578)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000001F67D3247F0>
